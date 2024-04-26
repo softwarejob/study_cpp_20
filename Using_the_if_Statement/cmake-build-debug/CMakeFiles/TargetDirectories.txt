@@ -1,0 +1,3 @@
+/Users/shao-chelin/CLionProjects/Using the if Statement/cmake-build-debug/CMakeFiles/Using_the_if_Statement.dir
+/Users/shao-chelin/CLionProjects/Using the if Statement/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shao-chelin/CLionProjects/Using the if Statement/cmake-build-debug/CMakeFiles/rebuild_cache.dir

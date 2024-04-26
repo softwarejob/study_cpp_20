@@ -1,0 +1,3 @@
+/Users/shao-chelin/CLionProjects/Displaying a Line of Text/cmake-build-debug/CMakeFiles/Displaying_a_Line_of_Text.dir
+/Users/shao-chelin/CLionProjects/Displaying a Line of Text/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shao-chelin/CLionProjects/Displaying a Line of Text/cmake-build-debug/CMakeFiles/rebuild_cache.dir

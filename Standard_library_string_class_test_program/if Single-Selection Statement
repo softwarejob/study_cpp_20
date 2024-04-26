@@ -1,0 +1,19 @@
+pseudocode
+if student's grade is greater than or equal to 60
+    print "Passed" （第二行縮排為optional，為清晰起見，建議使用）
+
+C++
+
+if (studentGrade >= 60) {
+    cout << "Passed";
+}
+
+C++與pseudocode密切相關
+
+bool Data Type
+zero is treated as false
+nonzero is treated as true
+
+compiler can implicitly convert true to 1 and false to 0
+
+UML Activity Diagram for an if Statement

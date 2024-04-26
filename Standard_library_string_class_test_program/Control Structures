@@ -1,0 +1,115 @@
+序列結構 Sequence Structure
+內建在C++中。除非另有指示，否則語句按照他們在程式中出現的順序（即按順序）一個接一個地執行。
+顺序结构是程序执行的基本结构之一，它按照代码的书写顺序依次执行每一条语句，没有分支或循环。
+顺序结构是编程中最基本的结构之一，几乎所有的程序都包含顺序结构。
+
+在 C++ 中，顺序结构就是按照代码的书写顺序依次执行每一条语句。例如，以下是一个简单的 C++ 程序，它包含了顺序结构：
+#include <iostream>
+
+int main() {
+    // 顺序执行下面的语句
+    int num1 = 5;
+    int num2 = 10;
+    int result = num1 + num2;
+
+    // 输出结果
+    std::cout << "The result is: " << result << std::endl;
+
+    return 0;
+}
+在这个示例中，程序首先执行 int num1 = 5; 这条语句，然后是 int num2 = 10;，最后是 int result = num1 + num2;。
+这三条语句按照顺序执行，没有任何条件判断或循环控制。
+
+顺序结构是程序中最基本的结构之一，它们构成了程序的整体逻辑。在编写程序时，
+我们通常会通过组合顺序结构、选择结构和循环结构来实现复杂的算法和逻辑。
+
+選擇結構 Selection Statements
+C++有三種型別的選擇語句。
+1.如果條件為真，if選擇語句執行（選擇）一個操作（或一組操作），如果條件為假，則跳過他。
+    1.1 if語句被稱為單選擇語句，因為他選擇或忽略單個操作（或一組操作）。
+
+    if (condition) {
+        // 当条件为真时执行这里的代码
+    }
+    //在这种结构中，如果条件表达式 condition 的值为真（非零），则执行大括号 {} 内的代码块；否则，跳过该代码块，继续执行后面的代码。
+
+    以下是一个简单的示例，演示了单个 if 语句的用法：
+    #include <iostream>
+
+    int main() {
+        int x = 10;
+
+        if (x > 5) {
+            std::cout << "x is greater than 5." << std::endl;
+        }
+
+        std::cout << "This statement always executes." << std::endl;
+
+        return 0;
+    }
+
+    //在这个示例中，如果 x 的值大于 5，则输出 "x is greater than 5."；
+    否则，将继续执行后面的输出语句 "This statement always executes."。
+
+2.如果條件為真，if...else選擇語句執行一個操作（或一組操作），如果條件為假，則執行不同操作（或一組操作）。
+    2.1 if...else 語句被稱為雙選擇語句，因為他在兩個不同的操作（或操作組）之間進行選擇。
+
+    if 语句允许根据条件的真假执行不同的代码块。语法如下：
+        if (condition) {
+            // 当条件为真时执行这里的代码
+        } else {
+            // 当条件为假时执行这里的代码
+        }
+
+    int num = 10;
+    if (num > 0) {
+        std::cout << "Number is positive." << std::endl;
+    } else {
+        std::cout << "Number is non-positive." << std::endl;
+    }
+
+
+3.switch選擇語句，執行許多不同的操作（或操作組）之一，具體取決於表示式的值(value of an expression)。
+    3.1 switch語句被稱為多選擇語句，因為他在許多不同操作（或作組）中進行選擇。
+    switch 语句：
+    switch 语句根据表达式的值选择执行不同的代码块。语法如下：
+    switch (expression) {
+        case value1:
+            // 当 expression 等于 value1 时执行这里的代码
+            break;
+        case value2:
+            // 当 expression 等于 value2 时执行这里的代码
+            break;
+        default:
+            // 如果 expression 不等于任何一个 case 的值，则执行这里的代码
+            break;
+    }
+例如：
+    char grade = 'B';
+    switch (grade) {
+        case 'A':
+            std::cout << "Excellent!" << std::endl;
+            break;
+        case 'B':
+            std::cout << "Good!" << std::endl;
+            break;
+        case 'C':
+            std::cout << "Passing!" << std::endl;
+            break;
+        default:
+            std::cout << "Failed!" << std::endl;
+            break;
+    }
+
+迭代結構 iteration statement
+
+C++提供四個迭代語句，也稱為重複語句，在迴圈漣序條件保持真實時，重複執行語句。
+迭代語句是：
+1.while
+2.for
+while和for語句執行其操作（或一組操作）0次或更多次。
+如果迴圈連續條件最初為假，則操作（操作組）將不執行。
+3.do...while
+do...while 循环会先执行一次代码块，然后在给定条件为真时重复执行，直到条件为假为止。
+4.range-based for
+range-based for 循环是 C++11 新增的一种循环结构，用于遍历容器（如数组、容器类等）的元素

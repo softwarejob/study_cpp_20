@@ -1,0 +1,3 @@
+/Users/shao-chelin/CLionProjects/Modifying Our First C++ Program/cmake-build-debug/CMakeFiles/Modifying_Our_First_C___Program.dir
+/Users/shao-chelin/CLionProjects/Modifying Our First C++ Program/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shao-chelin/CLionProjects/Modifying Our First C++ Program/cmake-build-debug/CMakeFiles/rebuild_cache.dir

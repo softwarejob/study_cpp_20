@@ -1,0 +1,4 @@
+C++只有三種控制結構，稱為控制語句：
+序列sequence
+選擇selection (if, if...else, switch)
+迭代iteration (while, do...while, for, range-based for)
