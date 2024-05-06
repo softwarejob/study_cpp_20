@@ -1,5 +1,0 @@
-@startuml
-if (studentGrade >= 60) then (yes)
-  :print "Passed";
-endif
-@enduml
