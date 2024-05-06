@@ -1,0 +1,15 @@
+Pseudocode
+if student's grade is greater than or equal to 60
+    print "Passed" （第二行縮排為optional，為清晰起見，建議使用）
+else
+    print "Failed"
+
+C++
+
+if (studentGrade >= 60 {
+    cout << "Passed";
+}
+else {
+    cout << "Failed";
+    
+}
